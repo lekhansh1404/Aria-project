@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-y: scroll;
+}
+
+body p {
+    color: #787976;
+    font: 400 1rem / 1.5625rem "Open Sans", sans-serif;
+}
+.logo img {
+    width: 7.0625rem;
+    height: 2rem;
+     margin-top: 15px;
+     margin-left: 25px;
+    float: left;
+}
+
+/* nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+} */
+
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #113448;
+    font-family: sans-serif;
+    justify-content: space-between;
+    height: 70px;
+    /* background: transparent; */
+}
+
+.menu-bar {
+    display: flex;
+    color: white;
+    list-style: none;
+    float: right;
+}
+
+.menu-bar li {
+    margin: 20px;
+    font-size: 14px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+.home .home-content {
+    color: white;
+    padding-top: 6.75rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+}
+
+.home .text-container {
+    max-width: 1140px;
+    text-align: center;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: rem;
+    text-align: center;
+}
+
+.text-container h1 {
+    font: 700 3.5rem / 4rem "Montserrat", sans-serif;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.text-container p {
+    
+    margin-bottom: 2rem;
+    color: #dfe5ec;
+    font-size: 20px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#disc-btn {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: #14bf98;
+    padding: 1rem 2.125rem 1rem 2.125rem;
+    border-radius: 0.45rem;
+    border: 1px solid #14bf98;
+}
+
+.intro {
+    margin: 6rem 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+.intro .intro-text {
+    width: 35%;
+}
+.intro-text h1 {
+    width: 85%;
+    color: #484a46;
+    font: 700 1.75rem / 2.125rem "Montserrat", sans-serif;
+    margin-bottom: 1.5rem;
+}
+#title {
+    margin-bottom: 0.5rem;
+    color: #14bf98;
+    font: 500 0.8125rem / 1.125rem "Montserrat", sans-serif;
+}
+#ceo {
+    color: #484a46;
+    font: 700 1rem / 1.375rem "Montserrat", sans-serif;
+    margin-top: 1rem;
+}
+/* .menu-btn div{
+   height: 5px;
+   background-color: white;
+   border-radius: 2px;
+   margin: 4px;
+}
+
+.menu-btn {
+    width: 35px;
+    display: block;
+    margin: 3px 4px;
+} */
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
